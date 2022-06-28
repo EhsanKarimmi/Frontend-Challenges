@@ -1,10 +1,18 @@
 import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { listOfRoutes } from "./components/ListOfRoutes";
 
 function App() {
     return (
-        <div className="App">
-            <header className=" text-green-400 font-bold">Hello Challenges</header>
-        </div>
+        <>
+            <BrowserRouter>
+                <Routes>
+                    {listOfRoutes.map((route: { path: string; element: JSX.Element }) => {
+                        return <Route path={route.path} element={route.element} />;
+                    })}
+                </Routes>
+            </BrowserRouter>
+        </>
     );
 }
 
