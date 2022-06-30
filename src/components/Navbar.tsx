@@ -7,7 +7,7 @@ function Navbar({ search, setSearch }: NavbarProps) {
     const [theme, setTheme] = useState(false);
 
     return (
-        <nav className="h-14 flex items-center justify-between  bg-white dark:bg-blue-500 border-[1px] border-gray-400 dark:border-blue-500 px-4 rounded-md shadow-md">
+        <nav className="h-14 flex items-center justify-between bg-white dark:bg-blue-500 border-[1px] border-gray-300 dark:border-blue-500 px-4 rounded-md ">
             {/* Logo */}
             <div>
                 <h1 className="navbarTitle uppercase text-xl font-bold">Edi Code</h1>
