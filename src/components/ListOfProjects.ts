@@ -1,9 +1,39 @@
-import { placeholder } from "../assets/images/placeholder.png";
+import  placeholder  from "../assets/images/placeholder.png";
 
 export const listOfProjects = [
-    { title: "Project 01", description: "asdfsadfsadf", image: placeholder, tag: "The Newest" },
-    { title: "Project 01", description: "asdfsadfsadf", image: placeholder, tag: "The Newest" },
-    { title: "Project 01", description: "asdfsadfsadf", image: placeholder, tag: "The Newest" },
-    { title: "Project 01", description: "asdfsadfsadf", image: placeholder, tag: "The Newest" },
-    { title: "Project 01", description: "asdfsadfsadf", image: placeholder, tag: "The Newest" },
+    {
+        key: 1,
+        title: "Project 01",
+        description: "asdfsadfsadf",
+        image: placeholder,
+        tag: "New",
+    },
+    {
+        key: 1,
+        title: "Project 01",
+        description: "asdfsadfasdfasdfasdfasdfasdfsadasdfasdfasdfasdfasdfasdfsadff",
+        image: placeholder,
+        tag: "",
+    },
+    {
+        key: 1,
+        title: "Project 01",
+        description: "asdfsadfsadf",
+        image: placeholder,
+        tag: "",
+    },
+    {
+        key: 1,
+        title: "Project 01",
+        description: "asdfsadfsadf",
+        image: placeholder,
+        tag: "",
+    },
+    {
+        key: 1,
+        title: "Project 01",
+        description: "asdfsadfsadf",
+        image: placeholder,
+        tag: "",
+    },
 ];
